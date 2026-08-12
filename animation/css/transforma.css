@@ -1,0 +1,43 @@
+#car1{
+    /* deslocamento nos dois eixos: (X, Y) */
+    transform: translate(100px, 90px)
+}
+
+#car2{
+    transform: rotate(45deg);
+}
+
+#car3{
+    /* transform nos 2 eixos: (X, Y) */
+    transform: scale(.7, .9);
+}
+
+#car4:hover{
+    transform: scale(.5);
+    transition: transform 2s; /*a propriedade transform ocorrerá em intervalos de 2 segundos*/
+}
+#car4{
+    transition: transform 2s;
+}
+
+#car5:hover{
+    width: 350px;
+    height: 350px;
+}
+#car5{
+    width: 250px;
+    height: 250px;
+    transition: width 5s, height 2s;
+}
+
+#car6:hover{
+    transform: 
+        translate(250px, 80px)
+        rotate(10deg);
+}
+
+#car6{
+    transition: transform 2s;
+    transition-delay: 2s;
+    transition-timing-function: ease-out;
+}
