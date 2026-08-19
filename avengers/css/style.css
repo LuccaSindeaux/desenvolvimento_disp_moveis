@@ -19,6 +19,31 @@ body{
     margin: 0 auto;
 }
 
+header{
+    background-color: #333;
+}
+
+a.logo{
+    display: inline-block;
+    width: 150px;
+}
+a.logo>img{
+    width: 100%;
+}
+
+a:link,
+a:visited{
+    color:  #ebebeb;
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
 ul{
     list-style: none;
 }
