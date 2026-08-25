@@ -47,3 +47,25 @@ a:visited{
 ul{
     list-style: none;
 }
+
+h1{
+    color: #DAE1E7;
+    text-shadow: 2px 2px 2px #cda75e;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+figure{
+    width: 390px;
+    margin: 10px auto;
+}
+figure img{
+    width: 100%;
+}
+
+footer{
+    background-color: #222;
+    padding: 30px 20px;
+}
+footer p{
+    color: #DAE1E7;
+}
