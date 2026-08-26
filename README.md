@@ -4,7 +4,7 @@ Todas as aulas de dispositivos móveis 2026
 ## Estrutura básica de uma media querie
 
 ```css
-@media only screen and (/*cindicao*/){/*codigo da modificacao*/}
+@media only screen and (/*condicao*/){/*codigo da modificacao*/}
 ```
 
 #### Exemplo prático:
