@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes mover{
+    0%{
+        margin: 0;
+    }
+    30%{
+        margin-top: 25px;
+        margin-left: 550px;
+        background-color: aquamarine;
+        transform: rotate(35deg);
+    }
+    60%{
+        margin-top: 400px;
+        margin-left: 1000px;
+        background-color: goldenrod;
+        transform: rotate(180deg);
+    }
+    100%{
+        margin-top: 50px;
+        margin-left: 200px;
+        background-color: crimson;
+        border-radius: 50%;
+    }
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    /*propriedade animation: nome, tempo, qtd movimentos, time-function da animação*/
+    animation: mover 10s infinite alternate ease-in-out;
+}

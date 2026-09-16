@@ -1,0 +1,50 @@
+/*Código da animação
+A palavra "keyframes" indica que é 
+uma animação*/
+
+/* definição de animção é com a niotação @keyframe */
+@keyframes acelera{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 1200px;
+    }
+}
+
+.carro{
+    width: 90px;
+    /* definir o nome da animação que o elemente utilizará */
+    animation-name: acelera;
+    animation-duration: 8s;
+}
+
+#car1{
+    animation-timing-function: linear;
+}
+
+#car2{
+    animation-timing-function: ease-out; /*começa rápido e desacelera*/
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+#car3{
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+}
+
+#car4{
+    /*Começa lenta, acelera, e volta lento*/
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#car5{
+    animation-delay: 2s;
+}
+
+#car6{
+    animation-duration: 3s;
+}
