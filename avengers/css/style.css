@@ -91,12 +91,7 @@ footer p{
     color: #DAE1E7;
 }
 
-<<<<<<< HEAD
-@media screen and (min-width: 650px) {
-
-    figure{
         
-=======
 @media screen and (min-width: 640px) {
     .galeria figure{
         width: 50%;
@@ -135,6 +130,5 @@ footer p{
 
     .galeria figure{
         width: 33.33%;
->>>>>>> 6248272b5037a98eaccdc99a598210bb1dd0c263
     }
 }
